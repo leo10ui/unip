@@ -14,11 +14,14 @@ h2 {
     font-size: 1em;
     color: #000000;
 }
-.negrito {
-    font-weight: bold;
-}
+
 .titulo {
+    font-size: 2em;
     font-weight: bold;
     text-align: center;
     font-family:"South Park";
+}
+
+.negrito {
+    font-weight: bold;
 }
