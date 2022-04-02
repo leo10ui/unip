@@ -34,3 +34,6 @@
       font-weight: bold;
   }
   
+  .characters {
+    float: left;
+}
