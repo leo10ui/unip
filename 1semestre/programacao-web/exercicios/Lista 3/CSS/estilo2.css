@@ -1,1 +1,36 @@
-
+@font-face {
+    font-family: 'South Park';
+    src: url("south_park.ttf");
+  }
+  
+  /*Elementos*/
+  body {
+      background-color: #00AC51;
+      margin: 2% 5% 2% 5%;
+      border: 1px solid #FFFFFF;
+      padding: 2%;
+      font-family: Arial, Helvetica, sans-serif;
+  }
+  h2 {
+      font-family: 'South Park';
+      font-size: 1em;
+      color: #FFFFFF;
+  }
+  
+  *p {
+      font-family: 'Arial';
+      font-size: 14    px;
+      color: #FFFFFF;
+  }*/
+  /*Classes*/
+  .titulo {
+      font-size: 2em;
+      font-weight: bold;
+      text-align: center;
+      font-family:"South Park";
+  }
+  
+  .negrito {
+      font-weight: bold;
+  }
+  
