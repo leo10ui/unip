@@ -37,3 +37,8 @@
   .characters {
     float: left;
 }
+
+.personagem {
+    height: 90%;
+    weight: 150
+}
