@@ -33,3 +33,7 @@ h2 {
 .negrito {
     font-weight: bold;
 }
+
+.characters {
+    float: right;
+}
