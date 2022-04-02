@@ -5,7 +5,7 @@
 
 /*Elementos*/
 body {
-    background-color: #FF5D2A;
+    background-color: #EE6325;
     margin: 2% 5% 2% 5%;
     border: 1px solid #000000;
     padding: 2%;
@@ -14,12 +14,12 @@ body {
 h2 {
     font-family: 'South Park';
     font-size: 1em;
-    color: #FFFFFF;
+    color: #000000;
 }
 
 p {
-    font-family: 'South Park';
-    font-size: 15px;
+    font-family: 'Arial';
+    font-size: 14    px;
     color: #000000;
 }
 /*Classes*/
