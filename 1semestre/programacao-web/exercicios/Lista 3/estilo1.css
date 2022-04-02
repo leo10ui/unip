@@ -2,6 +2,18 @@
   font-family: 'South Park';
   src: url("south park.ttf");
 }
-/*body {background-color: #f7bf5e; margin: 2% 5% 2% 5%; border: 1px solid #f7bf5e; padding: 2%; font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;}*/
-.negrito {font-weight: bold;}
-#titulo {font-weight: bold; text-align: center; font-family:"South Park";}
+body {
+    background-color: #f7bf5e;
+    margin: 2% 5% 2% 5%;
+    border: 1px solid #000000;
+    padding: 2%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.negrito {
+    font-weight: bold;
+}
+.titulo {
+    font-weight: bold;
+    text-align: center;
+    font-family:"South Park";
+}
