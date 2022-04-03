@@ -52,7 +52,7 @@ li {
 }
 
 .characters {
-    float: left;
+    float: right;
     height: 130px;
     width: auto;
 }
