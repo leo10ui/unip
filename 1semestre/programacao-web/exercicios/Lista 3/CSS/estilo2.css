@@ -36,7 +36,13 @@
   .negrito {
       font-weight: bold;
   }
-  
+
+#cartman {
+    float: left;
+    height: 120px;
+    width: 120px;
+}
+
 .characters {
     float: left;
     height: 130px;
