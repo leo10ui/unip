@@ -38,11 +38,15 @@
     float: left;
 }
 
-.personagm {
+.personagem {
     height: 150px;
     weight: 150px;
 }
 
 .description {
     float: right;
+}
+
+#div1 {
+    display: inline-block;
 }
