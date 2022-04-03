@@ -4,7 +4,7 @@
   }
 
 .titulo {
-    font-size: 2em;
+    font-size: 42px;
     font-weight: bold;
     text-align: center;
     font-family:"South Park";
@@ -21,13 +21,13 @@
 
   h2 {
       font-family: 'South Park';
-      font-size: 1em;
+      font-size: 20px;
       color: #FFFFFF;
   }
   
   p {
       font-family: 'Arial Black';
-      font-size: 14px;
+      font-size: 15px;
       color: #000000;
   }
   
