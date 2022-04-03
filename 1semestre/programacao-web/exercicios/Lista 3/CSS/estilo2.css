@@ -43,6 +43,11 @@
     width: 120px;
 }
 
+li {
+    font-family:"South Park";
+    font-size: 15px;
+}
+
 .characters {
     float: left;
     height: 130px;
