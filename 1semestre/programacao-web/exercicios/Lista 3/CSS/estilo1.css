@@ -1,40 +1,65 @@
 @font-face {
-  font-family: 'South Park';
-  src: url("south_park.ttf");
-}
-
-/*Elementos*/
-body {
-    background-color: #EE6325;
-    margin: 2% 5% 2% 5%;
-    border: 1px solid #000000;
-    padding: 2%;
-    font-family: Arial, Helvetica, sans-serif;
-}
-h2 {
     font-family: 'South Park';
-    font-size: 1em;
-    color: #000000;
-}
+    src: url("south_park.ttf");
+  }
 
-/*p {
-    font-family: 'Arial';
-    font-size: 14    px;
-    color: #000000;
-}*/
-/*Classes*/
 .titulo {
     font-size: 2em;
     font-weight: bold;
     text-align: center;
     font-family:"South Park";
 }
+  
+  /*Elementos*/
+  body {
+      background-color: #EE6325;
+      margin: 2% 5% 2% 5%;
+      border: 1px solid #FFFFFF;
+      padding: 2%;
+      font-family: Arial, Helvetica, sans-serif;
+  }
 
-.negrito {
-    font-weight: bold;
+  h2 {
+      font-family: 'South Park';
+      font-size: 1em;
+      color: #FFFFFF;
+  }
+  
+  *p {
+      font-family: 'Arial';
+      font-size: 14px;
+      color: #FFFFFF;
+  }*/
+  
+
+  
+  .negrito {
+      font-weight: bold;
+  }
+
+#cartman {
+    float: left;
+    height: 120px;
+    width: 120px;
+}
+
+li {
+    font-family:"South Park";
+    font-size: 15px;
+    font-style: bold;
+    color: #FFFFFF;
 }
 
 .characters {
     float: left;
+    height: 130px;
+    width: auto;
 }
 
+.personagem {
+    height: 150px;
+}
+
+.description {
+    margin-left: 125px;
+}
