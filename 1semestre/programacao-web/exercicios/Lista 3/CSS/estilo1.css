@@ -27,10 +27,10 @@
     color: #000000;
   }
   
-  *p {
-    font-family: "Arial";
-    font-size: 14px;
-    color: #000000;
+  p {
+    font-family: "Comic Sans MS";
+    font-size: 18px;
+    color: #ffffff;
   }
   */ .negrito {
     font-weight: bold;
