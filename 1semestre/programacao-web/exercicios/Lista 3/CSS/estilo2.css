@@ -44,9 +44,6 @@
 }
 
 .description {
-    float: right;
-}
-
-#div1 {
     display: inline-block;
+    float: right;
 }
