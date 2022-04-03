@@ -41,11 +41,10 @@
     float: left;
 }
 
-/*.personagem {
+.personagem {
     height: 150px;
-    width: 80%;
-    margin-right: 10px;
-}*/
+    margin-left: 500px;
+}
 
 .description {
     margin-right: 30px;
