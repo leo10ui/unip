@@ -8,6 +8,7 @@
     font-weight: bold;
     text-align: center;
     font-family:"South Park";
+    font-color: #FFFFFF;
 }
   
   /*Elementos*/
@@ -38,7 +39,7 @@
   }
 
 #cartman {
-    float: left;
+    float: right;
     height: 120px;
     width: 120px;
 }
