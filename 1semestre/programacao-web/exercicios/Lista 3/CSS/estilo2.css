@@ -42,3 +42,7 @@
     height: 150px;
     weight: 150px;
 }
+
+.description {
+    float: right;
+}
