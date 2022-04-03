@@ -34,20 +34,11 @@
       font-weight: bold;
   }
   
-  .characters_pic {
+  .characters {
     float: left;
 }
 
-.personagem {
+.personagm {
     height: 150px;
     weight: 150px;
-}
-
-.description {
-    display: inline-block;
-    float: right;
-}
-
-img, p {
-    display: inline-block;
 }
