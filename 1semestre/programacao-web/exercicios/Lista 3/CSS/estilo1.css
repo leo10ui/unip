@@ -15,7 +15,7 @@
   body {
       background-color: #EE6325;
       margin: 2% 5% 2% 5%;
-      border: 1px solid #FFFFFF;
+      border: 4px dashed #FFFFFF;
       padding: 2%;
       font-family: Arial, Helvetica, sans-serif;
   }
