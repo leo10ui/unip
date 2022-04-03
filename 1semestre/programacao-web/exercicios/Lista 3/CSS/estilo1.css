@@ -24,7 +24,7 @@
   h2 {
     font-family: "South Park";
     font-size: 1em;
-    color: #ffffff;
+    color: #000000;
   }
   
   *p {
@@ -46,7 +46,7 @@
     font-family: "South Park";
     font-size: 15px;
     font-style: bold;
-    color: #ffffff;
+    color: #000000;
   }
   
   .characters {
