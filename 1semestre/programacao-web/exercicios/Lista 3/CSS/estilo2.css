@@ -25,17 +25,15 @@
       color: #FFFFFF;
   }
   
-  *p {
+  p {
       font-family: 'Arial';
       font-size: 14px;
       color: #FFFFFF;
-  }*/
+  }
   
 
   
-  .negrito {
-      font-weight: bold;
-  }
+
 
 #cartman {
     float: left;
@@ -46,7 +44,7 @@
 li {
     font-family:"South Park";
     font-size: 15px;
-    font-style: bold;
+    font-weight: bold;
     color: #FFFFFF;
 }
 
