@@ -3,57 +3,72 @@
     src: url("south_park.ttf");
   }
   
-  .titulo {
-    font-size: 42px;
-    font-weight: bold;
-    text-align: center;
-    font-family: "South Park";
-  }
-
   body {
-    background-color: #00ac51;
+    background-color: #ee6325;
     margin: 2% 5% 2% 5%;
-    border: 1px solid #ffffff;
+    border: 8px dashed #ffffff;
     padding: 2%;
     font-family: Arial, Helvetica, sans-serif;
   }
   
-  h2 {
+  .titulo {
+    font-size: 40px;
+    margin-bottom: 10px;
+    font-weight: bold;
+    text-align: center;
     font-family: "South Park";
-    font-size: 20px;
-    color: #ffffff;
-  }
-  
-  p {
-    font-family: "Arial Black";
-    font-size: 15px;
     color: #000000;
   }
   
-  #cartman {
-    float: left;
-    height: 120px;
-    width: 120px;
+  #introduction {
+    text-align: center;
+    font-size: 18px;
+    font-family: "Comic Sans MS";
+    color: #000000;
+  }
+  
+  /*Elementos*/
+  
+  h2 {
+    font-family: "South Park";
+    font-size: 20px;
+    color: #000000;
+  }
+  
+  p {
+    font-family: "Comic Sans MS";
+    font-size: 18px;
+    color: #ffffff;
   }
   
   li {
     font-family: "South Park";
-    font-size: 18px;
+    font-size: 15px;
     font-weight: bold;
-    color: #ffffff;
-  }
-  
-  .characters {
-    float: left;
-    height: 130px;
-    width: auto;
+    color: #000000;
   }
   
   .personagem {
     height: 200px;
   }
   
+  #cartman {
+    float: right;
+    height: 120px;
+    width: 120px;
+  }
+  
+  .characters {
+    float: right;
+    height: 130px;
+    width: auto;
+  }
+  
   .description {
-    margin-left: 150px;
+    margin-right: 130px;
+    text-align: left;
+    font-size: 18px;
+    font-family: "Comic Sans MS";
+    color: #ffffff;
   }
   
