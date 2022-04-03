@@ -47,3 +47,7 @@
     display: inline-block;
     float: right;
 }
+
+img, p {
+    display: inline-block;
+}
