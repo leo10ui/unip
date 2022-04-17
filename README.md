@@ -5,7 +5,7 @@
   <ul>
     <li><h3>Disciplinas Presenciais</h3></li>
       <ul>
-        <li><a href="">Física para Computação</a></li>
+        <li><a href="1° Semestre/Física para Computação - Presencial">Física para Computação</a></li>
         <li><a href="1° Semestre/Interface Humano Computador - Presencial">Interface Humano Computador</a></li>
         <li><a href="1° Semestre/Noções de Direito - Presencial">Noções de Direito</a></li>
         <li><a href="1° Semestre/Programação para Dispositivos Móveis - Presencial">Programação para Dispositivos Móveis</a></li>
