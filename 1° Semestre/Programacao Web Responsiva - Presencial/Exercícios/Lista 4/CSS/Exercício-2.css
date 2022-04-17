@@ -1,0 +1,48 @@
+.emoji{
+    position:absolute;
+    width: 300px;
+    height: 300px;
+    margin-left: 525px;
+    margin-top: 170px;
+}
+
+.text{
+    position: absolute;
+    font-style: italic;
+    background-color:white;
+    margin: 80px 59px;
+}
+
+.boxes{
+    position:absolute;
+    width: 180px;
+    height: 180px;
+}
+
+#box1{
+    left: 0;
+    top:0;
+    background-color: yellow;
+}
+
+#box2{
+    top:0;
+    right:0;
+    margin-left: 1170px;
+    background-color: blue;
+}
+
+#box3{
+    bottom:0;
+    right:0;
+    margin-top: 460px;
+    margin-left: 1170px;
+    background-color: orange;
+}
+
+#box4{
+    bottom: 0;
+    left:0;
+    margin-top: 460px;
+    background-color: green;
+}

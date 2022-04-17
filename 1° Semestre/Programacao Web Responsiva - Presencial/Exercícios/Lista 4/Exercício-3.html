@@ -1,0 +1,128 @@
+<!--Aluno: Leonardo de Souza Rodrigues-->
+<!--RA : F344HB2-->
+<!DOCTYPE html>
+    <html>
+      <head>
+        <meta charset="utf-8"/>
+        <link rel="icon" type="image/x-icon" href="imagens/logo.ico"/>
+        <link rel="stylesheet" type="text/css" href="CSS/Exercício-3.css"/>
+        <title>Exercício 3</title>
+      </head>
+      <body>
+        <div id="menu">
+            <ul class="menu-list">
+             <li><a class="menu-link" href="#whatis"/>O que é?</a></li> 
+             <li><a class="menu-link" href="#utilization"/>Utilização</a></li>
+             <li><a class="menu-link" href="#funcionamento"/>Funcionamento</a></li>
+             <li><a class="menu-link" href="#principais-problemas"/>Principais Problemas</a></li>
+             <li><a class="menu-link" href="#bgp-ospf"/>BGP e OSPF</a></li>
+             <li><a class="menu-link" href="#referencias">Referências</a></li>
+            </ul>
+        </div>
+        <h1>BGP - Border Gateway Protcol</h1>
+        <h2 id="whatis">O Que é BGP?</h2>
+        <p>
+          BGP (Border Gateway Protocol) é o protocolo subjacente ao sistema de
+          roteamento global da Internet. Ele gerencia como os pacotes são
+          roteados, de rede para rede, por meio da troca de informações de
+          roteamento e acessibilidade entre roteadores de ponta. O BGP direciona
+          pacotes entre sistemas autônomos (AS – autonomous systems), que são
+          redes gerenciadas por uma única empresa ou provedor de serviços.
+        </p>
+        <p>
+          O BGP cria estabilidade de rede garantindo que os roteadores possam se
+          adaptar às falhas de rota: quando um caminho cai, um novo caminho é
+          rapidamente encontrado. O BGP toma decisões de roteamento com base em
+          caminhos, definidos por regras ou políticas de rede definidas por
+          administradores de rede.
+        </p>
+        <h2 id="utilization">Para que é utilizado?</h2>
+        <p>
+          O BGP oferece estabilidade de rede que garante que os roteadores possam
+          se adaptar rapidamente para enviar pacotes por meio de outra reconexão
+          se um caminho da Internet cair. O BGP toma decisões de roteamento com
+          base em caminhos, regras ou políticas de rede configuradas por um
+          administrador de rede. Cada roteador BGP mantém uma tabela de roteamento
+          padrão usada para direcionar os pacotes em trânsito. O BGP usa a
+          topologia cliente-servidor para comunicar informações de roteamento, com
+          o cliente-servidor iniciando uma sessão BGP enviando uma solicitação ao
+          servidor.
+        </p>
+        <h2 id="funcionamento">Como o BGP funciona?</h2>
+        <p>
+          Cada roteador mantém uma tabela de roteamento que controla como os
+          pacotes são direcionados. As informações da tabela de roteamento são
+          geradas pelo processo BGP no roteador, com base nas informações de
+          entrada de outros roteadores e nas informações na base de informações de
+          roteamento BGP (RIB – routing information base), que é uma tabela de
+          dados armazenada em um servidor no roteador BGP. O RIB contém
+          informações de pares externos conectados diretamente, bem como de pares
+          internos, e com base nas políticas de quais rotas devem ser usadas e
+          quais informações devem ser publicadas, atualiza continuamente a tabela
+          de roteamento conforme as alterações ocorrem.
+        </p>
+        <p>
+          O BGP envia informações atualizadas da tabela do roteador apenas quando
+          algo muda e apenas as informações afetadas. O BGP não tem mecanismo de
+          descoberta automática, o que significa que as conexões entre pares devem
+          ser configuradas manualmente, com endereços de pares programados em
+          ambas as extremidades.
+        </p>
+        <p>
+          O BGP toma decisões sobre o melhor caminho com base na acessibilidade
+          atual, contagens de saltos e outras características do caminho. Em
+          situações em que vários caminhos estão disponíveis – como em uma grande
+          instalação de hospedagem – as políticas de BGP comunicam as preferências
+          de uma organização quanto ao caminho que o tráfego deve seguir para
+          dentro e para fora. As tags da comunidade BGP podem controlar o
+          comportamento do anúncio de rota entre pares.
+        </p>
+        <p>
+          O BGP em rede é baseado em TCP / IP. Ele opera na Camada de Transporte
+          OSI (Camada 4) para controlar a Camada de Rede (Camada 3). Conforme
+          descrito no RFC4271 e ratificado em 2006, a versão atual do BGP-4
+          suporta IPv6 e Roteamento entre domínios sem classes (CIDR – Classless
+          Inter-Domain Routing), o que permite a viabilidade contínua do IPv4. O
+          uso do CIDR é uma forma de ter mais endereços na rede do que com o
+          esquema de atribuição de endereço IP atual.
+        </p>
+        <figure>
+            <img src="imagens/example diagram.png" alt="Diagrama de Exemplo">
+            <figcaption>Diagrama de exemplo de funcionamento do BGP</figcaption>
+        </figure>
+        <h2 id="principais-problemas">Problemas comuns do BGP</h2>
+        <p>
+          Problemas comuns com o BGP incluem falhas na troca de informações. As
+          trocas de informações nem sempre são bem-sucedidas, pois as informações
+          podem ser formatadas incorretamente ou conter dados incorretos. Os
+          roteadores podem ficar sem memória ou armazenamento ou serem muito
+          lentos para responder às atualizações. Os roteadores enviam códigos de
+          erro e subcódigos para comunicar problemas, incluindo tempos limite,
+          solicitações malformadas e problemas de processamento.
+        </p>
+        <h2 id="bgp-ospf">Diferença entre BGP interno, externo e OSPF</h2>
+        <p>
+          Quando o BGP é usado para rotear dentro de um único AS, ele é chamado de
+          BGP interno ou iBGP. Quando usado para conectar um AS a outros, é
+          chamado de BGP externo ou eBGP.
+        </p>
+        <p>
+          O protocolo OSPF (Open Shortest Path First) é usado apenas em redes
+          internas. O OSPF está focado em encontrar a rota mais curta disponível
+          entre os nós e em fazer failover para essa rota mais curta o mais rápido
+          possível. O BGP é mais lento para falhar em uma nova rota, mas é mais
+          escalonável. O OSPF é essencialmente hierárquico em estrutura, enquanto
+          o BGP é uma malha. Algumas redes estão substituindo o OSPF por iBGP.
+        </p>
+        <h2 id="referencias">Referências</h2>
+        <ul>
+            <li><a href="https://www.gocache.com.br/dicas/o-que-e-bgp-border-gateway-protocol">https://www.gocache.com.br/dicas/o-que-e-bgp-border-gateway-protocol</a></li>
+            <li><a href="https://searchnetworking.techtarget.com/definition/BGP-Border-Gateway-Protocol">https://searchnetworking.techtarget.com/definition/BGP-Border-Gateway-Protocol</a></li>
+            <li><a href="https://nsrc.org/workshops/2018/ubuntunet-nren-bgp/networking/nren/en/labs/bgp-peering.html">https://nsrc.org/workshops/2018/ubuntunet-nren-bgp/networking/nren/en/labs/bgp-peering.html</a></li>
+        </ul>
+        
+        
+        
+      </body>
+    </html>
+  
