@@ -18,5 +18,7 @@
         <li><a href="1° Semestre/Disciplinas Online - AVA/Tópicos de Matemática Aplicada - AVA">Tópicos de Matemática Aplicada</a></li>
       </ul>
     <li><h3>APS</h3></li>
-    <a href="1° Semestre/APS">APS 1° Semestre - Sustentabilidade</a>
+      <ul>
+        <li><a href="1° Semestre/APS">APS 1° Semestre - Sustentabilidade</a></li>
+      </ul>
   </ul>
