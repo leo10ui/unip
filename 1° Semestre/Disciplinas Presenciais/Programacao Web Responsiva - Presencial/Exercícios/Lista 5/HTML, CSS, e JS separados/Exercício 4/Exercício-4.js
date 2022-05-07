@@ -1,3 +1,6 @@
+//Aluno: Leonardo de Souza Rodrigues
+//RA: F344HB2
+
 var num_vezes = 1;
 var menor5 = 0;
 var maior5 = 0;
