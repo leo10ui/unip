@@ -1,6 +1,8 @@
 <h1>Ciência da Computação - UNIP</h1>
 <p>Repositório para organização de Slides/Conteúdos das aulas, atividades, e avaliações.</p>
 
+<img src="datas-np2.png" alt="Datas NP2">
+
 <h2>1° Semestre</h2>
   <ul>
     <li><h3>Disciplinas Presenciais</h3></li>
