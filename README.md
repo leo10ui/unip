@@ -2,7 +2,7 @@
 <p>Repositório para organização de Slides/Conteúdos das aulas, atividades, e avaliações.</p>
 
 <h2 style="text-align:center">Datas NP2</h2>
-<img src="datas-np2.png" alt="Datas NP2">
+<img src="horarios.png" alt="Horários">
 
 <h2>1° Semestre</h2>
   <ul>
@@ -25,3 +25,23 @@
         <li><a href="1° Semestre/APS">APS 1° Semestre - Sustentabilidade</a></li>
       </ul>
   </ul>
+
+  <h2>2° Semestre</h2>
+   <ul>
+    <li><h3>Disciplinas Presenciais</h3></li>
+      <ul>
+        <li><a href="2° Semestre/Disciplinas Presenciais/Circuitos Lógicos Digitais">Circuitos Lógicos Digitais</a></li>
+        <li><a href="2° Semestre/Disciplinas Presenciais/Introdução a Programação Estruturada">Introdução a Programação Estruturada</a></li>
+        <li><a href="2° Semestre/Disciplinas Presenciais/Lógica de Programação e Algoritmos">Lógica de Programação e Algoritmos</a></li>
+      </ul>
+    <li><h3>Disciplinas Online - AVA</h3></li>
+      <ul>
+        <li><a href="2° Semestre/Disciplinas Online - AVA/Geometria Analítica">Geometria Analítica</a></li>
+        <li><a href="2° Semestre/Disciplinas Online - AVA/Lógica Matemática">Lógica Matemática</a></li>
+        <li><a href="2° Semestre/Disciplinas Online - AVA/Comunicação e Expressão">Comunicação e Expressão</a></li>
+      </ul>
+    <li><h3>Atividades Práticas Supervisionadas - APS</h3></li>
+      <ul>
+        <li><a href="2° Semestre/APS">APS 2° Semestre - Criptografia</a></li>
+      </ul>
+    </ul>
