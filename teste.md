@@ -4,17 +4,12 @@
 <h2 style="text-align:center">Datas e Horários</h2>
 <img src="horarios.png" alt="Horários">
 
-
 <details open>
   <summary><h2>1° Semestre</h2></summary>
   <details open>
     <summary><h3>Disciplinas Presenciais</h3></summary>
   </details>
 </details>
-
-
-
-
 
 <h2>1° Semestre</h2>
   <ul>
