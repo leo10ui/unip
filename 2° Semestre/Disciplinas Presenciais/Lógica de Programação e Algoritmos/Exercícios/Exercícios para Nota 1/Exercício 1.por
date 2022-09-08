@@ -2,8 +2,8 @@ programa {
 	funcao inicio() {
 		inteiro cod
 		cadeia setor
-		cadeia msgE = "Digite o código do produto: "
-		cadeia msgS = "O produto digitado está no setor de "
+		cadeia msgE = "Digite o cÃ³digo do produto: "
+		cadeia msgS = "O produto digitado estÃ¡ no setor de "
 		escreva(msgE)
 		leia(cod)
 		se (cod >= 1 e cod <= 100)
@@ -23,7 +23,7 @@ programa {
 		}
 		senao
 		{
-		    setor = "vestuário"
+		    setor = "vestuÃ¡rio"
 		    escreva(msgS,setor)
 		}
 	}
