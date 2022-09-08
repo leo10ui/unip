@@ -14,15 +14,15 @@ programa {
 		freq = ((aulas-faltas)/aulas)*100
 		se (media >= 6 e freq >= 75)
 		{
-		    escreva("Você está aprovado com média ",media," e frequência de ",freq,"%")
+		    escreva("VocÃª estÃ¡ aprovado com mÃ©dia ",media," e frequÃªncia de ",freq,"%")
 		}
 		senao se (media >= 3 e media < 6)
 		{
-		    escreva("Você está de exame, sua média foi ",media," e sua frequência foi de ",freq,"%")
+		    escreva("VocÃª estÃ¡ de exame, sua mÃ©dia foi ",media," e sua frequÃªncia foi de ",freq,"%")
 		}
 		senao
 		{
-		    escreva("Sua média foi de ",media," e sua frequência de ",freq,"%. Infelizmente você foi reprovado.")
+		    escreva("Sua mÃ©dia foi de ",media," e sua frequÃªncia de ",freq,"%. Infelizmente vocÃª foi reprovado.")
 		}
 	}
 }
