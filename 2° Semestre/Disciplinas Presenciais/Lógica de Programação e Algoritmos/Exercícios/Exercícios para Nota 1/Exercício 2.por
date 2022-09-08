@@ -2,10 +2,10 @@ programa {
 	funcao inicio() {
 		inteiro tempo
 		real salario
-		cadeia msgS = "O novo salário será de: "
+		cadeia msgS = "O novo salÃ¡rio serÃ¡ de: "
 		escreva("Quanto anos de empresa: ")
 		leia(tempo)
-		escreva("Qual é o salário? ")
+		escreva("Qual Ã© o salÃ¡rio? ")
 		leia(salario)
 		se (tempo > 10 e salario >= 1000 e salario <= 3000)
 		{
