@@ -10,6 +10,9 @@
   <details open>
     <summary><h3>Disciplinas Presenciais</h3></summary>
   </details>
+  <details open>
+    <summary><h3>Disciplinas Presenciais</h3></summary>
+  </details>
 </details>
 
 
