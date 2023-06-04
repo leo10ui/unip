@@ -1,0 +1,44 @@
+--- Plano A:
+
+Nome do Jogo: 
+	Eco Runner
+- Modalidade: 
+	Plataforma
+- Jogo Parecido: 
+	Jogo do dinossauro do Google Chrome
+- Funcionamento:
+	O personagem irá percoerrer o mapa limpando as ruas e pulando os obstáculos, onde o jogador que chegar mais longe vence.
+
+- O jogo terá pontuação, que irá crescer a cada segundo em que o personagem fica no jogo sem atingir nenhum obstáculo.
+
+Estilo de Arte: Pixelado
+
+Componentes:
+#1 - Personagem: Professor com uma vassoura e pá, coletando lixo pela cidade. * Animado * Correr, agachar, pular e morrer (3 - 4 Frames)
+#2 - Cenário: Cidade contendo Rua, prédios, casa, nuvens, indústria. * Estático * Variações do cenário, onde os fins e inícios se conectam
+#3 - Ícone de Multiplicador de Pontos: Papel amassado, garrafa-pet e latinha. * Estático *
+#4 - Ícone de Obstáculos Terrestres: Carro, lata de lixo, caminhão, hidrante. * Estático *
+#5 - Ícone de Obstáculos Aéreos:  Pombo, drone. * Animado * Movimento pelo Mapa (3 - 4 Frames)
+#6 - Números para contabilizar os pontos.
+#7 - Números para contabilizar o recorde.
+
+Extras: Interface
+# Selecionar personagens diferentes (professores)
+# Menu Inicial - Iniciar o Jogo, dificuldade, seleção de personagens.
+# Tela de GameOver - Com pontuação final, recorde, quantidade de lixos coletados e mensagem.
+# Diferentes níveis de dificuldade
+# Efeitos sonoros - Coleta de Pontos, Morte, Pulo.
+# Trilha Sonora - Música de Fundo
+
+
+
+--- Plano B:
+
+Nome do Jogo: 
+	Garbage Colector
+- Modalidade: 
+	Drag and Drop
+- Funcionamento:
+	Ao aparecer um lixo na tela, o jogador terá que arrastar o ícone do lixo para a lixeira correta.
+
+- O jogo terá pontuação, que irá crescer a cada separação correta, e irá diminuir quando ele errar.
