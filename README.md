@@ -1,10 +1,12 @@
 <h1>Ciência da Computação - UNIP</h1>
 <p>Repositório para organização de Slides/Conteúdos das aulas, atividades, e avaliações.</p>
 
-<h2 style="text-align:center">Datas e Horários</h2>
+<h2 style="text-align:center">Horários e Datas</h2>
 <img src="horarios.png" alt="Horários">
 
-<h2>1° Semestre</h2>
+<h2 style="text-align:center">Conteúdos por Semestre</h2>
+<details>
+<summary><h2>1° Semestre</h2></summary>
   <ul>
     <li><h3>Disciplinas Presenciais</h3></li>
       <ul>
@@ -25,8 +27,10 @@
         <li><a href="1° Semestre/APS">APS 1° Semestre - Sustentabilidade</a></li>
       </ul>
   </ul>
+  </details>
 
-  <h2>2° Semestre</h2>
+  <details>
+  <summary><h2>2° Semestre</h2></summary>
    <ul>
     <li><h3>Disciplinas Presenciais</h3></li>
       <ul>
@@ -45,3 +49,44 @@
         <li><a href="2° Semestre/APS">APS 2° Semestre - Criptografia</a></li>
       </ul>
     </ul>
+    </details>
+
+  <details>
+  <summary><h2>3° Semestre</h2></summary>
+   <ul>
+    <li><h3>Disciplinas Presenciais</h3></li>
+      <ul>
+        <li><a href="3° Semeste/Disciplinas Presenciais/Banco de Dados">Banco de Dados</a></li>
+        <li><a href="3° Semeste/Disciplinas Presenciais/LPOO - Linguagem de Programação Orientada a Objeto">LPOO - Linguagem de Programação Orientada a Objeto</a></li>
+      </ul>
+    <li><h3>Disciplinas Online - AVA</h3></li>
+      <ul>
+        <li><a href="3° Semeste/Disciplinas Online - AVA/Estatística e Probabilidade">Estatística e Probabilidade</a></li>
+        <li><a href="3° Semeste/Disciplinas Online - AVA/Homem e Sociedade">Homem e Sociedade</a></li>
+        <li><a href="3° Semeste/Disciplinas Online - AVA/Paradigmas de Linguagens">Paradigmas de Linguagens</a></li>
+      </ul>
+    <li><h3>Atividades Práticas Supervisionadas - APS</h3></li>
+      <ul>
+        <li><a href="3° Semeste/APS">APS 3° Semestre - EcoRunner - Jogo em Java</a></li>
+      </ul>
+    </ul>
+  </details>
+
+  <details>
+  <summary><h2>4° Semestre</h2></summary>
+   <ul>
+    <li><h3>Disciplinas Presenciais</h3></li>
+      <ul>
+        <li><a href="4° Semestre/Disciplinas Presenciais/Estrutura de Dados">Estrutura de Dados</a></li>
+        <li><a href="4° Semestre/Disciplinas Presenciais/Linguagem de Programação de Banco de Dados">Linguagem de Programação de Banco de Dados</a></li>
+      </ul>
+    <li><h3>Disciplinas Online - AVA</h3></li>
+      <ul>
+        <li><a href="4° Semestre/Disciplinas Online - AVA/Ciências Sociais">Ciências Sociais</a></li>
+      </ul>
+    <li><h3>Atividades Práticas Supervisionadas - APS</h3></li>
+      <ul>
+        <li><a href="4° Semeste/APS">APS 4° Semestre - Breve</a></li>
+      </ul>
+    </ul>
+ </details>
