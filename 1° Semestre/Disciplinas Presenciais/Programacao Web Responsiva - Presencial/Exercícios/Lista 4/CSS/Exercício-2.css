@@ -1,53 +1,53 @@
-.alunos{
-    font-family: Arial;
-    font-size: 17px;
-    text-align: center;
+.alunos {
+  font-family: Arial;
+  font-size: 17px;
+  text-align: center;
 }
-.emoji{
-    position:absolute;
-    width: 300px;
-    height: 300px;
-    margin-left: 525px;
-    margin-top: 90px;
-}
-
-.text{
-    position: absolute;
-    font-style: italic;
-    background-color:white;
-    margin: 80px 59px;
+.emoji {
+  position: absolute;
+  width: 300px;
+  height: 300px;
+  margin-left: 525px;
+  margin-top: 90px;
 }
 
-.boxes{
-    position:absolute;
-    width: 180px;
-    height: 180px;
+.text {
+  position: absolute;
+  font-style: italic;
+  background-color: white;
+  margin: 80px 59px;
 }
 
-#box1{
-    left: 0;
-    top:0;
-    background-color: yellow;
+.boxes {
+  position: absolute;
+  width: 180px;
+  height: 180px;
 }
 
-#box2{
-    top:0;
-    right:0;
-    margin-left: 1170px;
-    background-color: blue;
+#box1 {
+  left: 0;
+  top: 0;
+  background-color: yellow;
 }
 
-#box3{
-    bottom:0;
-    right:0;
-    margin-top: 460px;
-    margin-left: 1170px;
-    background-color: orange;
+#box2 {
+  top: 0;
+  right: 0;
+  margin-left: 1170px;
+  background-color: blue;
 }
 
-#box4{
-    bottom: 0;
-    left:0;
-    margin-top: 460px;
-    background-color: green;
+#box3 {
+  bottom: 0;
+  right: 0;
+  margin-top: 460px;
+  margin-left: 1170px;
+  background-color: orange;
+}
+
+#box4 {
+  bottom: 0;
+  left: 0;
+  margin-top: 460px;
+  background-color: green;
 }

@@ -1,52 +1,47 @@
 <!--Aluno: Leonardo de Souza Rodrigues-->
 <!--RA: F344HB2-->
-<!DOCTYPE html>
+<!doctype html>
 <html>
-    <head>
-        <meta charset="UTF-8">
-        <style>
-            p{
-                font-family: Arial;
-                font-size: 20px;
-                text-align: center;
-            }
-            <!-- Defining the style of the div1 element. -->
-            #div1{
-                background-color: rgb(22, 216, 22);
-                width: 400px;
-                color: white;
-                font-family: Arial;
-                font-size: 20px;
-                text-align: center;
-            }
-            #div2{
-                background-color: rgb(236, 27, 27);
-                width: 400px;
+  <head>
+    <meta charset="UTF-8" />
+    <style>
+      p {
+        font-family: Arial;
+        font-size: 20px;
+        text-align: center;
+      }
+      <!-- Defining the style of the div1 element. -- > #div1 {
+        background-color: rgb(22, 216, 22);
+        width: 400px;
+        color: white;
+        font-family: Arial;
+        font-size: 20px;
+        text-align: center;
+      }
+      #div2 {
+        background-color: rgb(236, 27, 27);
+        width: 400px;
 
-                color: white;
-                font-family: Arial;
-                font-size: 20px;
-                text-align: center;
-            }
-        </style>
-    </head>
-    <body>
-        <script>
-            var texto = "<div id='div1'>Eu serei Aprovado!</div>";
-            var texto2 = "<div id='div2'>Será mesmo?</div>"
-            var ct = 1;
-            while (ct<=40)
-            {
-                if (ct % 2 != 0)
-                {
-                    document.write(texto);
-                }
-                else
-                {
-                    document.write(texto2);
-                }
-                ct++;
-            };
-        </script>
-    </body>
+        color: white;
+        font-family: Arial;
+        font-size: 20px;
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <script>
+      var texto = "<div id='div1'>Eu serei Aprovado!</div>";
+      var texto2 = "<div id='div2'>Será mesmo?</div>";
+      var ct = 1;
+      while (ct <= 40) {
+        if (ct % 2 != 0) {
+          document.write(texto);
+        } else {
+          document.write(texto2);
+        }
+        ct++;
+      }
+    </script>
+  </body>
 </html>

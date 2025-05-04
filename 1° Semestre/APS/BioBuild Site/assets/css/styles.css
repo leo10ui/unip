@@ -1,7 +1,7 @@
 /* Navbar Icon */
 
 .bs-icon {
-  --bs-icon-size: .75rem;
+  --bs-icon-size: 0.75rem;
   display: flex;
   flex-shrink: 0;
   justify-content: center;
@@ -41,16 +41,16 @@
 
 .bs-icon.bs-icon-primary-light {
   color: var(--bs-primary);
-  background: rgba(var(--bs-primary-rgb), .2);
+  background: rgba(var(--bs-primary-rgb), 0.2);
 }
 
 .bs-icon.bs-icon-semi-white {
   color: var(--bs-primary);
-  background: rgba(255, 255, 255, .5);
+  background: rgba(255, 255, 255, 0.5);
 }
 
 .bs-icon.bs-icon-rounded {
-  border-radius: .5rem;
+  border-radius: 0.5rem;
 }
 
 .bs-icon.bs-icon-circle {
@@ -70,19 +70,21 @@ a {
   background-position: center;
 }
 
-.simple-slider .swiper-button-next, .simple-slider .swiper-button-prev {
+.simple-slider .swiper-button-next,
+.simple-slider .swiper-button-prev {
   width: 50px;
   margin-left: 20px;
   margin-right: 20px;
 }
 
-@media (max-width:767px) {
-  .simple-slider .swiper-button-next, .simple-slider .swiper-button-prev {
+@media (max-width: 767px) {
+  .simple-slider .swiper-button-next,
+  .simple-slider .swiper-button-prev {
     display: none;
   }
 }
 
-@media (max-width:767px) {
+@media (max-width: 767px) {
   .simple-slider .swiper-slide {
     height: 360px;
   }
@@ -122,4 +124,3 @@ body {
 .margem-slider {
   margin-top: 5px;
 }
-

@@ -1,74 +1,73 @@
 @font-face {
-    font-family: "South Park";
-    src: url("south_park.ttf");
-  }
-  
-  body {
-    background-color: #ee6325;
-    margin: 2% 5% 2% 5%;
-    border: 8px dashed #ffffff;
-    padding: 2%;
-    font-family: Arial, Helvetica, sans-serif;
-  }
-  
-  .titulo {
-    font-size: 40px;
-    margin-bottom: 10px;
-    font-weight: bold;
-    text-align: center;
-    font-family: "South Park";
-    color: #000000;
-  }
-  
-  #introduction {
-    text-align: center;
-    font-size: 18px;
-    font-family: "Comic Sans MS";
-    color: #000000;
-  }
-  
-  /*Elementos*/
-  
-  h2 {
-    font-family: "South Park";
-    font-size: 20px;
-    color: #000000;
-  }
-  
-  p {
-    font-family: "Comic Sans MS";
-    font-size: 18px;
-    color: #ffffff;
-  }
-  
-  li {
-    font-family: "South Park";
-    font-size: 15px;
-    font-weight: bold;
-    color: #000000;
-  }
-  
-  .personagem {
-    height: 200px;
-  }
-  
-  #cartman {
-    float: right;
-    height: 120px;
-    width: 120px;
-  }
-  
-  .characters {
-    float: right;
-    height: 130px;
-    width: auto;
-  }
-  
-  .description {
-    margin-right: 130px;
-    text-align: left;
-    font-size: 18px;
-    font-family: "Comic Sans MS";
-    color: #ffffff;
-  }
-  
+  font-family: "South Park";
+  src: url("south_park.ttf");
+}
+
+body {
+  background-color: #ee6325;
+  margin: 2% 5% 2% 5%;
+  border: 8px dashed #ffffff;
+  padding: 2%;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.titulo {
+  font-size: 40px;
+  margin-bottom: 10px;
+  font-weight: bold;
+  text-align: center;
+  font-family: "South Park";
+  color: #000000;
+}
+
+#introduction {
+  text-align: center;
+  font-size: 18px;
+  font-family: "Comic Sans MS";
+  color: #000000;
+}
+
+/*Elementos*/
+
+h2 {
+  font-family: "South Park";
+  font-size: 20px;
+  color: #000000;
+}
+
+p {
+  font-family: "Comic Sans MS";
+  font-size: 18px;
+  color: #ffffff;
+}
+
+li {
+  font-family: "South Park";
+  font-size: 15px;
+  font-weight: bold;
+  color: #000000;
+}
+
+.personagem {
+  height: 200px;
+}
+
+#cartman {
+  float: right;
+  height: 120px;
+  width: 120px;
+}
+
+.characters {
+  float: right;
+  height: 130px;
+  width: auto;
+}
+
+.description {
+  margin-right: 130px;
+  text-align: left;
+  font-size: 18px;
+  font-family: "Comic Sans MS";
+  color: #ffffff;
+}

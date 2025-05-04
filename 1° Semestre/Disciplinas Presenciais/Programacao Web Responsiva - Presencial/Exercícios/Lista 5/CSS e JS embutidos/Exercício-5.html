@@ -1,60 +1,61 @@
 <!--Aluno: Leonardo de Souza Rodrigues-->
 <!--RA: F344HB2-->
-<!DOCTYPE html>
+<!doctype html>
 <html>
-    <head>
-        <style>
-            body{
-                background-color: rgba(0, 0, 255, 0.712);
-                font-family: Arial;
-                font-size: 25px;
-                color: white;
-            }
-        </style>
-        <script type="text/javascript">
-            var A = [];                 //Define o array para armazenar os números da matriz A
-            var B = [];                 //Define o array para armazenar os números da matriz B
-            A[0] = 5;
-            A[1] = 10;
-            A[2] = 30;
-            A[3] = 4;
-            A[4] = 7;
-            A[5] = 120;
-            A[6] = 12;
-            A[7] = 34;
+  <head>
+    <style>
+      body {
+        background-color: rgba(0, 0, 255, 0.712);
+        font-family: Arial;
+        font-size: 25px;
+        color: white;
+      }
+    </style>
+    <script type="text/javascript">
+      var A = []; //Define o array para armazenar os números da matriz A
+      var B = []; //Define o array para armazenar os números da matriz B
+      A[0] = 5;
+      A[1] = 10;
+      A[2] = 30;
+      A[3] = 4;
+      A[4] = 7;
+      A[5] = 120;
+      A[6] = 12;
+      A[7] = 34;
 
-            var i=0;                    /*Contador para o for*/
-            var ctl=0;                  /*Contador para o while*/
+      var i = 0; /*Contador para o for*/
+      var ctl = 0; /*Contador para o while*/
 
-            for (A[i];i<=8;i++)
-            {
-                if (A[i]%2==0)          /*Se o número do índice for par*/
-                {
-                    B[i] = A[i] * 5;    /*Multiplica-se por 5*/
-                }
-                else                    /*Se o número do índice for ímpar*/
-                {
-                    B[i] = A[i] + 5;    /*Soma-se 5*/
-                }
-            }
-        </script>
-    </head>
-    <body>
-            <script>
-                document.write("Dados da matriz A:<br>");
-                while (ctl < 8)                                       /*Enquanto o contador for menor que 8*/
-                {
-                    document.write("A["+ctl+"] = "+A[ctl]+"<br>");     /*Escreve na tela o número da matriz A*/
-                    ctl++;                                             /*Incrementa o contador*/
-                }
+      for (A[i]; i <= 8; i++) {
+        if (A[i] % 2 == 0) {
+          /*Se o número do índice for par*/
+          B[i] = A[i] * 5; /*Multiplica-se por 5*/
+        } /*Se o número do índice for ímpar*/ else {
+          B[i] = A[i] + 5; /*Soma-se 5*/
+        }
+      }
+    </script>
+  </head>
+  <body>
+    <script>
+      document.write("Dados da matriz A:<br>");
+      while (ctl < 8) {
+        /*Enquanto o contador for menor que 8*/
+        document.write(
+          "A[" + ctl + "] = " + A[ctl] + "<br>",
+        ); /*Escreve na tela o número da matriz A*/
+        ctl++; /*Incrementa o contador*/
+      }
 
-                ctl=0; /*zera o contador*/
-                document.write("<br>Dados da matriz B:<br>");
-                while (ctl < 8)                                       /*Enquanto o contador for menor que 8*/
-                {
-                    document.write("B["+ctl+"] = "+B[ctl]+"<br>");     /*Escreve na tela o número da matriz B*/
-                    ctl++;                                             /*Incrementa o contador*/
-                }
-            </script>
-    </body>
+      ctl = 0; /*zera o contador*/
+      document.write("<br>Dados da matriz B:<br>");
+      while (ctl < 8) {
+        /*Enquanto o contador for menor que 8*/
+        document.write(
+          "B[" + ctl + "] = " + B[ctl] + "<br>",
+        ); /*Escreve na tela o número da matriz B*/
+        ctl++; /*Incrementa o contador*/
+      }
+    </script>
+  </body>
 </html>
