@@ -1,46 +1,45 @@
-.alunos{
+.alunos {
   font-family: Arial;
   font-size: 17px;
 }
 
 td {
-    width: 100px;
-    height: 100px;
-  }
-  
-  #cell1 {
-    background-color: red;
-  }
-  
-  #cell2 {
-    background-color: green;
-  }
-  
-  #cell3 {
-    background-color: blue;
-  }
-  
-  #cell4 {
-    background-color: yellow;
-  }
-  
-  #cell5 {
-    background-color: grey;
-  }
-  
-  #cell6 {
-    background-color: white;
-  }
-  
-  #cell7 {
-    background-color: black;
-  }
-  
-  #cell8 {
-    background-color: silver;
-  }
-  
-  #cell9 {
-    background-color: purple;
-  }
-  
+  width: 100px;
+  height: 100px;
+}
+
+#cell1 {
+  background-color: red;
+}
+
+#cell2 {
+  background-color: green;
+}
+
+#cell3 {
+  background-color: blue;
+}
+
+#cell4 {
+  background-color: yellow;
+}
+
+#cell5 {
+  background-color: grey;
+}
+
+#cell6 {
+  background-color: white;
+}
+
+#cell7 {
+  background-color: black;
+}
+
+#cell8 {
+  background-color: silver;
+}
+
+#cell9 {
+  background-color: purple;
+}
