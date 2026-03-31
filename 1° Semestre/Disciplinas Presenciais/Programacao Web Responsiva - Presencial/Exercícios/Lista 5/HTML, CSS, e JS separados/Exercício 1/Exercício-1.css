@@ -1,16 +1,16 @@
 div {
-    width: 600px;
-    height: 200px;
-    font-family: Arial;
-    font-size: 60px;
-    background-color: red;
-    color: white;
-    position: absolute;
-    margin-left: 25%;
-    text-align: center
+  width: 600px;
+  height: 200px;
+  font-family: Arial;
+  font-size: 60px;
+  background-color: red;
+  color: white;
+  position: absolute;
+  margin-left: 25%;
+  text-align: center;
 }
 
-p{
-    font-family: Arial;
-    font-size: 20px;
+p {
+  font-family: Arial;
+  font-size: 20px;
 }

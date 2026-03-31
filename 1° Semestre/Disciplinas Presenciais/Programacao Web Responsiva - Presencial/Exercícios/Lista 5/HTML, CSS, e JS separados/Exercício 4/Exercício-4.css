@@ -1,16 +1,16 @@
-body{
-    background-color:rgb(9, 130, 243);
+body {
+  background-color: rgb(9, 130, 243);
 }
-div{
-    border: 4px solid white;
-    font-family:Arial;
-    font-size: 50px;
-    color:white;
-    text-align: center;
+div {
+  border: 4px solid white;
+  font-family: Arial;
+  font-size: 50px;
+  color: white;
+  text-align: center;
 }
-p{
-    font-family:Arial;
-    font-size: 15px;
-    color:white;
-    text-align: right;
+p {
+  font-family: Arial;
+  font-size: 15px;
+  color: white;
+  text-align: right;
 }
